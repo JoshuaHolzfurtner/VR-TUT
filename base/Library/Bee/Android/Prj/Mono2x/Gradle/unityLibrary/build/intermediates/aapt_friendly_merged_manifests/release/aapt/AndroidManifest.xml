@@ -88,7 +88,10 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="com.oculus.handtracking.frequency"
-            android:value="HIGH" />
+            android:value="MAX" />
+        <meta-data
+            android:name="com.oculus.handtracking.version"
+            android:value="V2.0" />
         <meta-data
             android:name="com.samsung.android.vr.application.mode"
             android:value="vr_only" />

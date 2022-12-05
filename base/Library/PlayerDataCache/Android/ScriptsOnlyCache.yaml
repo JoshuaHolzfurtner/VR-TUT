@@ -36,6 +36,7 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.PoseDetection.TransformFeatureStateProvider
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
+    - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRControllerHelper
@@ -187,6 +188,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10542}
     - Class: 114
       Script: {instanceID: 10886}
+    - Class: 114
+      Script: {instanceID: 10976}
     - Class: 114
       Script: {instanceID: 11094}
     - Class: 114
@@ -3904,6 +3907,12 @@ ScriptsOnlyBuild:
     className: TwoGrabFreeTransformer
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.VR.Editor.dll
+    namespaceName: 
+    className: OVRConfig
+  - hash:
+      serializedVersion: 2
       Hash: f8bdc5302f6dd3ca0d6feb313e913f0a
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -4043,4 +4052,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: /Users/joshua/base/pleaseWork.apk
+  playerPath: /Users/joshua/Documents/GitHub/VR-TUT/base/BaseWorking.apk
