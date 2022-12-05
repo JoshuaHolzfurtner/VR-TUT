@@ -29,8 +29,11 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.Input.LastKnownGoodHand
     - Oculus.Interaction.Input.OVRCameraRigRef
     - Oculus.Interaction.Input.TrackingToWorldTransformerOVR
+    - Oculus.Interaction.InteractableColorVisual
+    - Oculus.Interaction.InteractableGroupView
     - Oculus.Interaction.InteractorGroup
     - Oculus.Interaction.MaterialPropertyBlockEditor
+    - Oculus.Interaction.PointableUnityEventWrapper
     - Oculus.Interaction.PokeInteractor
     - Oculus.Interaction.PoseDetection.FingerFeatureStateProvider
     - Oculus.Interaction.PoseDetection.FingerFeatureStateThresholds
@@ -65,13 +68,25 @@ ScriptsOnlyBuild:
     Oculus.Interaction:
     - Oculus.Interaction.Grab.PoseMeasureParameters
     - Oculus.Interaction.GrabAPI.GrabbingRule
+    - Oculus.Interaction.InteractableColorVisual/ColorState
     - Oculus.Interaction.MaterialPropertyVector
     - Oculus.Interaction.PoseDetection.FingerFeatureStateProvider/FingerStateThresholds
     - Oculus.Interaction.PoseDetection.FingerFeatureStateThreshold
     - Oculus.Interaction.PoseDetection.FingerFeatureThresholds
     Oculus.VR.Editor:
     - Assets.Oculus.VR.Editor.AssetConfigList
-  methodsToPreserve: []
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+  methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.MeshFilter
+    methodName: set_mesh
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.MeshFilter
+    methodName: set_mesh
   sceneClasses:
     Assets/Scenes/MainScene.unity:
     - Class: 1
@@ -137,6 +152,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4872}
     - Class: 114
+      Script: {instanceID: 5066}
+    - Class: 114
       Script: {instanceID: 5114}
     - Class: 114
       Script: {instanceID: 5414}
@@ -195,6 +212,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10542}
     - Class: 114
+      Script: {instanceID: 10582}
+    - Class: 114
       Script: {instanceID: 10886}
     - Class: 114
       Script: {instanceID: 10976}
@@ -202,6 +221,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11094}
     - Class: 114
       Script: {instanceID: 11138}
+    - Class: 114
+      Script: {instanceID: 11252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
