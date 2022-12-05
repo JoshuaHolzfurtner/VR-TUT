@@ -5,7 +5,9 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.ControllerActiveState
     - Oculus.Interaction.ControllerPointerPose
     - Oculus.Interaction.GrabAPI.HandGrabAPI
+    - Oculus.Interaction.Grabbable
     - Oculus.Interaction.HandActiveState
+    - Oculus.Interaction.HandGrab.HandGrabInteractable
     - Oculus.Interaction.HandGrab.HandGrabInteractor
     - Oculus.Interaction.HandGrab.HandGrabStateVisual
     - Oculus.Interaction.HandJoint
@@ -61,6 +63,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   serializedClasses:
     Oculus.Interaction:
+    - Oculus.Interaction.Grab.PoseMeasureParameters
+    - Oculus.Interaction.GrabAPI.GrabbingRule
     - Oculus.Interaction.MaterialPropertyVector
     - Oculus.Interaction.PoseDetection.FingerFeatureStateProvider/FingerStateThresholds
     - Oculus.Interaction.PoseDetection.FingerFeatureStateThreshold
@@ -143,6 +147,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6472}
     - Class: 114
+      Script: {instanceID: 6650}
+    - Class: 114
       Script: {instanceID: 6786}
     - Class: 114
       Script: {instanceID: 6824}
@@ -150,6 +156,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6836}
     - Class: 114
       Script: {instanceID: 6862}
+    - Class: 114
+      Script: {instanceID: 7000}
     - Class: 114
       Script: {instanceID: 7054}
     - Class: 114
