@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.HandActiveState
     - Oculus.Interaction.HandGrab.HandGrabInteractable
     - Oculus.Interaction.HandGrab.HandGrabInteractor
+    - Oculus.Interaction.HandGrab.HandGrabPose
     - Oculus.Interaction.HandGrab.HandGrabStateVisual
     - Oculus.Interaction.HandJoint
     - Oculus.Interaction.HandPinchOffset
@@ -68,6 +69,7 @@ ScriptsOnlyBuild:
     Oculus.Interaction:
     - Oculus.Interaction.Grab.PoseMeasureParameters
     - Oculus.Interaction.GrabAPI.GrabbingRule
+    - Oculus.Interaction.HandGrab.HandPose
     - Oculus.Interaction.InteractableColorVisual/ColorState
     - Oculus.Interaction.MaterialPropertyVector
     - Oculus.Interaction.PoseDetection.FingerFeatureStateProvider/FingerStateThresholds
@@ -113,6 +115,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -145,6 +149,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2748}
     - Class: 114
       Script: {instanceID: 3890}
+    - Class: 114
+      Script: {instanceID: 4290}
     - Class: 114
       Script: {instanceID: 4432}
     - Class: 114
