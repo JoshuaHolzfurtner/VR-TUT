@@ -1,5 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Oculus.AvatarSDK2.Example.dll:
+    - SampleAvatarEntity
+    - SampleInputManager
+    Oculus.AvatarSDK2.dll:
+    - Oculus.Avatar2.AvatarLODManager
+    - Oculus.Avatar2.GpuSkinningConfiguration
+    - Oculus.Avatar2.OvrAvatarManager
+    - Oculus.Avatar2.OvrAvatarShaderConfiguration
+    - Oculus.Avatar2.OvrAvatarShaderManagerMultiple
+    - Oculus.Avatar2.Utils.AvatarLODLookat
     Oculus.Interaction.dll:
     - Oculus.Interaction.ActiveStateTracker
     - Oculus.Interaction.ControllerActiveState
@@ -40,6 +50,8 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.PoseDetection.FingerFeatureStateThresholds
     - Oculus.Interaction.PoseDetection.JointDeltaProvider
     - Oculus.Interaction.PoseDetection.TransformFeatureStateProvider
+    Oculus.Spatializer.dll:
+    - ONSPSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -65,7 +77,29 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   serializedClasses:
+    Oculus.AvatarSDK2:
+    - Oculus.Avatar2.AvatarLODManager/Debug
+    - Oculus.Avatar2.CAPI/ovrAvatar2EntityCreateInfo
+    - Oculus.Avatar2.CAPI/ovrAvatar2EntityFeatures
+    - Oculus.Avatar2.CAPI/ovrAvatar2EntityFilters
+    - Oculus.Avatar2.CAPI/ovrAvatar2EntityLODFlags
+    - Oculus.Avatar2.CAPI/ovrAvatar2EntityManifestationFlags
+    - Oculus.Avatar2.CAPI/ovrAvatar2EntitySubMeshInclusionFlags
+    - Oculus.Avatar2.CAPI/ovrAvatar2EntityViewFlags
+    - Oculus.Avatar2.OvrAvatarEntity/AvatarLoadFailedEvent
+    - Oculus.Avatar2.OvrAvatarEntity/AvatarStateEvent
+    - Oculus.Avatar2.OvrAvatarEntity/DebugDrawing
+    - Oculus.Avatar2.OvrAvatarEntity/EntityLoadingStateEvent
+    - Oculus.Avatar2.OvrAvatarEntity/LoadingStateEvent
+    - Oculus.Avatar2.OvrAvatarManager/SkinnerSupport
+    - Oculus.Avatar2.OvrAvatarMaterialExtensionConfig
+    Oculus.AvatarSDK2.Example:
+    - SampleAvatarEntity/AssetData
     Oculus.Interaction:
     - Oculus.Interaction.Grab.PoseMeasureParameters
     - Oculus.Interaction.GrabAPI.GrabbingRule
@@ -82,6 +116,9 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.Events.UnityEvent
+    UnityEngine.UI:
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.MeshFilter
@@ -134,102 +171,128 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2022}
+      Script: {instanceID: 1830}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 2332}
+      Script: {instanceID: 2102}
     - Class: 114
-      Script: {instanceID: 2480}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2552}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2576}
     - Class: 114
-      Script: {instanceID: 2748}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 3890}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 4432}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 4770}
+      Script: {instanceID: 3944}
     - Class: 114
-      Script: {instanceID: 4872}
+      Script: {instanceID: 4064}
     - Class: 114
-      Script: {instanceID: 5066}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 5114}
+      Script: {instanceID: 4488}
     - Class: 114
-      Script: {instanceID: 5414}
+      Script: {instanceID: 4634}
     - Class: 114
-      Script: {instanceID: 5478}
+      Script: {instanceID: 4980}
     - Class: 114
-      Script: {instanceID: 6364}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 6472}
+      Script: {instanceID: 5284}
     - Class: 114
-      Script: {instanceID: 6650}
+      Script: {instanceID: 5334}
     - Class: 114
-      Script: {instanceID: 6786}
+      Script: {instanceID: 5638}
     - Class: 114
-      Script: {instanceID: 6824}
+      Script: {instanceID: 5702}
     - Class: 114
-      Script: {instanceID: 6836}
+      Script: {instanceID: 6332}
     - Class: 114
-      Script: {instanceID: 6862}
+      Script: {instanceID: 6482}
     - Class: 114
-      Script: {instanceID: 7000}
+      Script: {instanceID: 6624}
     - Class: 114
-      Script: {instanceID: 7054}
+      Script: {instanceID: 6734}
     - Class: 114
-      Script: {instanceID: 7188}
+      Script: {instanceID: 6926}
     - Class: 114
-      Script: {instanceID: 7392}
+      Script: {instanceID: 7072}
     - Class: 114
-      Script: {instanceID: 7590}
+      Script: {instanceID: 7112}
     - Class: 114
-      Script: {instanceID: 8444}
+      Script: {instanceID: 7124}
     - Class: 114
-      Script: {instanceID: 8486}
+      Script: {instanceID: 7150}
     - Class: 114
-      Script: {instanceID: 8542}
+      Script: {instanceID: 7282}
     - Class: 114
-      Script: {instanceID: 8546}
+      Script: {instanceID: 7304}
     - Class: 114
-      Script: {instanceID: 8676}
+      Script: {instanceID: 7362}
     - Class: 114
-      Script: {instanceID: 8918}
+      Script: {instanceID: 7500}
     - Class: 114
-      Script: {instanceID: 9292}
+      Script: {instanceID: 7710}
     - Class: 114
-      Script: {instanceID: 9406}
+      Script: {instanceID: 7914}
     - Class: 114
-      Script: {instanceID: 9558}
+      Script: {instanceID: 8220}
     - Class: 114
-      Script: {instanceID: 10052}
+      Script: {instanceID: 8800}
     - Class: 114
-      Script: {instanceID: 10106}
+      Script: {instanceID: 8842}
     - Class: 114
-      Script: {instanceID: 10372}
+      Script: {instanceID: 8902}
     - Class: 114
-      Script: {instanceID: 10494}
+      Script: {instanceID: 8906}
     - Class: 114
-      Script: {instanceID: 10542}
+      Script: {instanceID: 9040}
     - Class: 114
-      Script: {instanceID: 10582}
+      Script: {instanceID: 9152}
     - Class: 114
-      Script: {instanceID: 10886}
+      Script: {instanceID: 9290}
+    - Class: 114
+      Script: {instanceID: 9398}
+    - Class: 114
+      Script: {instanceID: 9680}
+    - Class: 114
+      Script: {instanceID: 9804}
+    - Class: 114
+      Script: {instanceID: 9962}
+    - Class: 114
+      Script: {instanceID: 10382}
+    - Class: 114
+      Script: {instanceID: 10470}
+    - Class: 114
+      Script: {instanceID: 10524}
+    - Class: 114
+      Script: {instanceID: 10796}
+    - Class: 114
+      Script: {instanceID: 10928}
     - Class: 114
       Script: {instanceID: 10976}
     - Class: 114
-      Script: {instanceID: 11094}
+      Script: {instanceID: 11018}
     - Class: 114
-      Script: {instanceID: 11138}
+      Script: {instanceID: 11342}
     - Class: 114
-      Script: {instanceID: 11252}
+      Script: {instanceID: 11438}
+    - Class: 114
+      Script: {instanceID: 11558}
+    - Class: 114
+      Script: {instanceID: 11604}
+    - Class: 114
+      Script: {instanceID: 11722}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -242,6 +305,12 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -312,6 +381,12 @@ ScriptsOnlyBuild:
     className: OculusSpatializerUnity
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleAvatarGazeTargets
+  - hash:
+      serializedVersion: 2
       Hash: 19496982d3a78c0eaaf9586421cbbf01
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Grab.GrabSurfaces
@@ -328,6 +403,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: VersionTextVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 131f425607820796717868b02ff18299
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleAvatarLocomotion
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -492,6 +573,12 @@ ScriptsOnlyBuild:
     className: HandVisual
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: OpenAvatarEditor
+  - hash:
+      serializedVersion: 2
       Hash: fd21d4f529a92d741f9f2f439eee6c47
     assemblyName: Facebook.WitAI.dll
     namespaceName: Facebook.WitAi.Data.Entities
@@ -514,6 +601,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
     className: FromHandPrefabDataSource
+  - hash:
+      serializedVersion: 2
+      Hash: 6b38b6c985999d08bc627a6c0d5cdb10
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleAvatarEntityFaceTracking
   - hash:
       serializedVersion: 2
       Hash: e14ff447aaf62d9737c2447a225fa4ec
@@ -594,6 +687,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: b65ecff0860035f517ba384e01b4d6a4
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarEntity
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -648,12 +747,6 @@ ScriptsOnlyBuild:
     className: UnityOnPointerUpMessageListener
   - hash:
       serializedVersion: 2
-      Hash: fe6296766f29f6e4ff538de9246cf8b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HandMeshUI
-  - hash:
-      serializedVersion: 2
       Hash: 91d258529db2b5060a913f2afcea1a21
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -664,6 +757,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fe6296766f29f6e4ff538de9246cf8b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandMeshUI
   - hash:
       serializedVersion: 2
       Hash: e4f14d5b6410d0da8438845eb3e14fd5
@@ -738,6 +837,12 @@ ScriptsOnlyBuild:
     className: CombinedAudioEventReference
   - hash:
       serializedVersion: 2
+      Hash: edb019b6f933619fdd6c196f31a1088e
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2.Utils
+    className: AvatarLODLookat
+  - hash:
+      serializedVersion: 2
       Hash: e4c511fcf31a39b6e614595be7309046
     assemblyName: Oculus.LipSync.dll
     namespaceName: 
@@ -774,6 +879,12 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4eda2dae3c8adb8b454afd7052cbbe57
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleAvatarAttachments
+  - hash:
+      serializedVersion: 2
       Hash: fc7de65c86732c89745a0a4a83bdf7fc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -786,10 +897,22 @@ ScriptsOnlyBuild:
     className: ONSPPropagationGeometry
   - hash:
       serializedVersion: 2
+      Hash: c6178a38a6be953abbaa6b0d732776ee
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning.GpuSkinning
+    className: OvrAvatarGpuSkinnedMvRenderable
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Facebook.WitAI.dll
     namespaceName: Facebook.WitAi.Data.Entities
     className: DynamicEntityKeywordRegistry
+  - hash:
+      serializedVersion: 2
+      Hash: 3d82ba18e55fe5bcc1a63834f60e21bb
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: AvatarLODGameObjectGroup
   - hash:
       serializedVersion: 2
       Hash: 043c7e57403febdc5cb7607252a9451b
@@ -978,6 +1101,12 @@ ScriptsOnlyBuild:
     className: RoundedBoxProperties
   - hash:
       serializedVersion: 2
+      Hash: 63fc02aa55345fd396592f3d2a4df735
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: LipSyncMicInput
+  - hash:
+      serializedVersion: 2
       Hash: f73b0e5e964ea295cb2a9814837c1396
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.DistanceReticles
@@ -1056,10 +1185,22 @@ ScriptsOnlyBuild:
     className: TeleportInputHandlerHMD
   - hash:
       serializedVersion: 2
+      Hash: c6178a38a6be953abbaa6b0d732776ee
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning.GpuSkinning
+    className: OvrAvatarComputeInterpolatedSkinnedMvRenderable
+  - hash:
+      serializedVersion: 2
       Hash: 1b67d4bb4648cb7d784398ebb0539b1b
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
     className: GameController
+  - hash:
+      serializedVersion: 2
+      Hash: f432010379f996f6e7eaf5f92d3ccc4e
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: GpuSkinningConfiguration
   - hash:
       serializedVersion: 2
       Hash: 413ff185991fe6c33162e110abc6a505
@@ -1122,10 +1263,22 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 8520120b01f62996764c063901301e5c
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarLipSyncContext
+  - hash:
+      serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 46d69d6eacc5b4a330331ca46c067a7d
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleRemoteLoopbackManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1162,6 +1315,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: DistanceGrabInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 320feff89dbc8ef59af7114073bd1e81
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarShaderManagerMultiple
   - hash:
       serializedVersion: 2
       Hash: 6a443665520f2961c3a006c9467db581
@@ -1344,6 +1503,12 @@ ScriptsOnlyBuild:
     className: DebugUIBuilder
   - hash:
       serializedVersion: 2
+      Hash: c6178a38a6be953abbaa6b0d732776ee
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning.GpuSkinning
+    className: OvrAvatarGpuInterpolatedSkinnedMvRenderable
+  - hash:
+      serializedVersion: 2
       Hash: 4df1c6db134b95499a814b783e266a83
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -1482,6 +1647,12 @@ ScriptsOnlyBuild:
     className: OVRSemanticClassification
   - hash:
       serializedVersion: 2
+      Hash: dad080b5d701cb12fae85006ddee1052
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: AvatarLODBehaviourStateGroup
+  - hash:
+      serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1516,6 +1687,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6d7b2befa9884c7c08d252798e2d9c05
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarShaderManagerSingle
   - hash:
       serializedVersion: 2
       Hash: 3a0fa4528690e89614a27f9b88a889c4
@@ -1642,6 +1819,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: RemotePlayer
+  - hash:
+      serializedVersion: 2
+      Hash: d9367934b533230f4cab4aeed8f6d208
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: AvatarLODParent
   - hash:
       serializedVersion: 2
       Hash: e14ff447aaf62d9737c2447a225fa4ec
@@ -1788,6 +1971,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleEyePoseBehavior
+  - hash:
+      serializedVersion: 2
       Hash: c62775f7279ea30b4981a8322d28585a
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.NetChat
@@ -1836,12 +2025,6 @@ ScriptsOnlyBuild:
     className: OVRCustomSkeleton
   - hash:
       serializedVersion: 2
-      Hash: 2d6c48bcbb0c5879a658aca82ca624a7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: OculusSampleFramework
-    className: TrainCar
-  - hash:
-      serializedVersion: 2
       Hash: d64ca67f2f93cd08bbe2667787a95299
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1852,6 +2035,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.UnityCanvas
     className: CanvasRect
+  - hash:
+      serializedVersion: 2
+      Hash: 2d6c48bcbb0c5879a658aca82ca624a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: OculusSampleFramework
+    className: TrainCar
   - hash:
       serializedVersion: 2
       Hash: d6b04dc356c18066ae2f919c82887693
@@ -1870,6 +2059,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportPoint
+  - hash:
+      serializedVersion: 2
+      Hash: f9f6221d6aa32b127cae88853585da66
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleGazeTargetMotion
   - hash:
       serializedVersion: 2
       Hash: 17653b21203f576d6729f3490936652e
@@ -1900,6 +2095,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 16e0f53ff61e12ea19661d24e947b38e
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: AvatarLODSkinnableGroup
   - hash:
       serializedVersion: 2
       Hash: c84e0a6ed4f9bdde216ecebba6733836
@@ -1968,6 +2169,12 @@ ScriptsOnlyBuild:
     className: OVRLipSyncContextTextureFlip
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarEyeTrackingBehaviorOvrPlugin
+  - hash:
+      serializedVersion: 2
       Hash: eef9b8d1dcd603641e224c80dfa15f72
     assemblyName: Facebook.WitAI.dll
     namespaceName: Facebook.WitAi.Data.Entities
@@ -1978,6 +2185,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrVoiceChat
     className: VREyeRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 6b38b6c985999d08bc627a6c0d5cdb10
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleAvatarEntity
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2016,16 +2229,16 @@ ScriptsOnlyBuild:
     className: FadeTextAfterActive
   - hash:
       serializedVersion: 2
-      Hash: df6d951b6ecf8a67b68b89b4c07d970b
-    assemblyName: Oculus.VR.dll
-    namespaceName: 
-    className: OVRVignette
-  - hash:
-      serializedVersion: 2
       Hash: d0cdc393a41edf1f83275da05cc88be3
     assemblyName: Oculus.Platform.dll
     namespaceName: 
     className: ReportingCallbackSample
+  - hash:
+      serializedVersion: 2
+      Hash: df6d951b6ecf8a67b68b89b4c07d970b
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRVignette
   - hash:
       serializedVersion: 2
       Hash: b91c8e6d466992f4dca9529697a7a59e
@@ -2038,6 +2251,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: CylinderProximityField
+  - hash:
+      serializedVersion: 2
+      Hash: c6e64a08681424a2c21a1fa6a5e3c837
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarRenderable
   - hash:
       serializedVersion: 2
       Hash: baaff3513c586cf973eb5866e562f729
@@ -2062,6 +2281,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: ControllerBoxController
+  - hash:
+      serializedVersion: 2
+      Hash: 3fe85f7c729b70cd32bacc460ecf5e77
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SkeletonRenderer
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2220,6 +2445,12 @@ ScriptsOnlyBuild:
     className: RayInteractorCursorVisual
   - hash:
       serializedVersion: 2
+      Hash: c6178a38a6be953abbaa6b0d732776ee
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning.GpuSkinning
+    className: OvrAvatarGpuInterpolatedSkinnedRenderable
+  - hash:
+      serializedVersion: 2
       Hash: 5303c95f8601bf3fad51ec7545542a15
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -2310,6 +2541,12 @@ ScriptsOnlyBuild:
     className: PointableCanvasMesh
   - hash:
       serializedVersion: 2
+      Hash: fd212ba407a152992de2d273902acec4
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning
+    className: OvrAvatarUnitySkinnedRenderable
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -2340,6 +2577,12 @@ ScriptsOnlyBuild:
     className: ActiveStateNot
   - hash:
       serializedVersion: 2
+      Hash: 14cc93fc250fd0d4a6327f7b02ad500f
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarManager
+  - hash:
+      serializedVersion: 2
       Hash: 35a72fd924ac463f8d70ff8fb46a29f2
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -2368,6 +2611,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Spatializer.dll
     namespaceName: 
     className: ONSPAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: c6178a38a6be953abbaa6b0d732776ee
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning.GpuSkinning
+    className: OvrAvatarGpuSkinnedRenderable
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2544,6 +2793,12 @@ ScriptsOnlyBuild:
     className: DetectBasket
   - hash:
       serializedVersion: 2
+      Hash: c6178a38a6be953abbaa6b0d732776ee
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning.GpuSkinning
+    className: OvrAvatarComputeSkinnedMvRenderable
+  - hash:
+      serializedVersion: 2
       Hash: 27c993e5f6bdc55be57eef02515e1f83
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -2640,6 +2895,12 @@ ScriptsOnlyBuild:
     className: OVRLipSyncMicInput
   - hash:
       serializedVersion: 2
+      Hash: 130dab6028222fdf39e61de8d942db26
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: TestSceneSwitcher
+  - hash:
+      serializedVersion: 2
       Hash: d608b1f2abf068645b239e34aada1acf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -2728,6 +2989,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: InteractorUnityEventWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 871b5590772e5eaefc4a9feb1e1b6c84
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarCustomHandPose
   - hash:
       serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
@@ -2880,22 +3147,28 @@ ScriptsOnlyBuild:
     className: SceneSampler
   - hash:
       serializedVersion: 2
-      Hash: 49fe2bd19b241a7b0022e7babd7a3869
-    assemblyName: Oculus.Interaction.dll
-    namespaceName: Oculus.Interaction.Surfaces
-    className: PlaneSurface
-  - hash:
-      serializedVersion: 2
       Hash: 999bf4d62433eea493188ad6d3221ec1
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
     className: FromOVRControllerDataSource
   - hash:
       serializedVersion: 2
+      Hash: 49fe2bd19b241a7b0022e7babd7a3869
+    assemblyName: Oculus.Interaction.dll
+    namespaceName: Oculus.Interaction.Surfaces
+    className: PlaneSurface
+  - hash:
+      serializedVersion: 2
       Hash: 2aab91b70eb4157c3bf6c6c60925a5de
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: RayInteractorPinchVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 16e0f53ff61e12ea19661d24e947b38e
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: AvatarLODActionGroup
   - hash:
       serializedVersion: 2
       Hash: 4c063458ca029e84d4f59c22fc3c5fca
@@ -3060,6 +3333,12 @@ ScriptsOnlyBuild:
     className: PointableDebugVisual
   - hash:
       serializedVersion: 2
+      Hash: ecf5dcc38beb25f30a1f1f857af8ae52
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarShaderConfiguration
+  - hash:
+      serializedVersion: 2
       Hash: b244cd2f4645bdae5e59cc2a0c2e1d34
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.PoseDetection.Debug
@@ -3142,6 +3421,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: BoxProximityField
+  - hash:
+      serializedVersion: 2
+      Hash: 455b9b1413e56cdc8ad1f56857d60cc0
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: AvatarLODManager
   - hash:
       serializedVersion: 2
       Hash: 01e45df698045f76cf1dfd72ffdc09a4
@@ -3270,6 +3555,12 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
+      Hash: ce244cfa38b45adfe81ea0a24b038462
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: 
+    className: OvrAvatarHandJointType
+  - hash:
+      serializedVersion: 2
       Hash: 7f64f9d8b13a35e042bfe6440d8412b4
     assemblyName: Facebook.WitAI.dll
     namespaceName: Facebook.WitAi.Data.Entities
@@ -3286,6 +3577,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
     className: ControllerRef
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: Oculus.Avatar2
+    className: DelayPermissionRequest
   - hash:
       serializedVersion: 2
       Hash: 99e96e30b88e7a716b0c4fb771a0a5fe
@@ -3310,6 +3607,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportInputHandlerTouch
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarFaceTrackingBehaviorOvrPlugin
   - hash:
       serializedVersion: 2
       Hash: 70824f2ac432312775dc470d6873bc28
@@ -3388,6 +3691,18 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Grab.GrabSurfaces
     className: CylinderGrabSurface
+  - hash:
+      serializedVersion: 2
+      Hash: c6178a38a6be953abbaa6b0d732776ee
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning.GpuSkinning
+    className: OvrAvatarComputeSkinnedRenderable
+  - hash:
+      serializedVersion: 2
+      Hash: bcf7bd80a44aaecf9a44d8917012448e
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: AvatarLOD
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -3534,6 +3849,12 @@ ScriptsOnlyBuild:
     className: AudioTrigger
   - hash:
       serializedVersion: 2
+      Hash: ab83621e917a8bc0e77e5cca3f5c00cf
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleInputManager
+  - hash:
+      serializedVersion: 2
       Hash: 7301b469dd79cdc3168cf4a96878791b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -3672,6 +3993,12 @@ ScriptsOnlyBuild:
     className: CylinderSurface
   - hash:
       serializedVersion: 2
+      Hash: 3e3e28b492b867179c55d074604e52bf
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: IblSetupForEnvironment
+  - hash:
+      serializedVersion: 2
       Hash: f374001cba5bfa34134c7fb3f0dc6c0b
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.PoseDetection
@@ -3718,6 +4045,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
     className: HandFilterParameterBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 5fa6960490b805918248f5408c86cb45
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: OvrAvatarGazeTarget
   - hash:
       serializedVersion: 2
       Hash: f67a6acf3a9c5fc5def73fdd1c4df0de
@@ -3774,6 +4107,12 @@ ScriptsOnlyBuild:
     className: OVRTrackedKeyboard
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: SampleFacePoseBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 5a4c7ee63a364117ce7d3b80ae1145d3
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
@@ -3826,6 +4165,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: InteractableGroupView
+  - hash:
+      serializedVersion: 2
+      Hash: dce54719b190aa70ba75c94c0720b2c4
+    assemblyName: Oculus.AvatarSDK2.Example.dll
+    namespaceName: 
+    className: TransformTrackingInputManager
   - hash:
       serializedVersion: 2
       Hash: b9e63177ef033d3efa107218bdba0b8d
@@ -3892,6 +4237,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: OneGrabTranslateTransformer
+  - hash:
+      serializedVersion: 2
+      Hash: 16e0f53ff61e12ea19661d24e947b38e
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Avatar2
+    className: AvatarLODGroup
   - hash:
       serializedVersion: 2
       Hash: f6d3f53988465db91af90171954f7b5e
@@ -3994,6 +4345,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c6178a38a6be953abbaa6b0d732776ee
+    assemblyName: Oculus.AvatarSDK2.dll
+    namespaceName: Oculus.Skinning.GpuSkinning
+    className: OvrAvatarComputeInterpolatedSkinnedRenderable
   - hash:
       serializedVersion: 2
       Hash: 6dd4037cfee21201487b5758a3ac1afc

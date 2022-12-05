@@ -25,6 +25,7 @@ android.permission.RECORD_AUDIO, android.permission.MODIFY_AUDIO_SETTINGS, andro
 	UnityEngine.Microphone was present in:
 		Oculus.LipSync-FeaturesChecked.txt
 		Facebook.WitAI-FeaturesChecked.txt
+		Oculus.AvatarSDK2.Example-FeaturesChecked.txt
 android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
 	UnityEngine.Input::GetTouch was present in:
 		UnityEngine.UI-FeaturesChecked.txt

@@ -307,6 +307,8 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Facebook.WitAI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/LitJson.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.AudioManager.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.AvatarSDK2.Example.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.AvatarSDK2.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.Interaction.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.Interaction.Samples.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Oculus.LipSync.ref.dll"
