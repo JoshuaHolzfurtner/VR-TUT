@@ -1,11 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Oculus.AvatarSDK2.Example.dll:
+    - LipSyncMicInput
     - SampleAvatarEntity
     - SampleInputManager
     Oculus.AvatarSDK2.dll:
     - Oculus.Avatar2.AvatarLODManager
     - Oculus.Avatar2.GpuSkinningConfiguration
+    - Oculus.Avatar2.OvrAvatarLipSyncContext
     - Oculus.Avatar2.OvrAvatarManager
     - Oculus.Avatar2.OvrAvatarShaderConfiguration
     - Oculus.Avatar2.OvrAvatarShaderManagerMultiple
@@ -158,6 +160,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -191,9 +195,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3138}
     - Class: 114
+      Script: {instanceID: 3746}
+    - Class: 114
       Script: {instanceID: 3942}
     - Class: 114
       Script: {instanceID: 4062}
+    - Class: 114
+      Script: {instanceID: 4188}
     - Class: 114
       Script: {instanceID: 4338}
     - Class: 114
