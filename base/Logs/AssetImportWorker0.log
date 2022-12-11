@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55431
+55127
 Successfully changed project path to: /Users/joshua/Documents/GitHub/VR-TUT/base
 /Users/joshua/Documents/GitHub/VR-TUT/base
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/joshua/Documents/GitHub/VR-TUT/base
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 356.49 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 327.67 ms, found 5 plugins.
 Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
   Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
   Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
-Preloading 1 native plugins for Editor in 4.46 ms.
+Preloading 1 native plugins for Editor in 3.09 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/joshua/Documents/GitHub/VR-TUT/base/Assets
@@ -73,105 +73,105 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56746
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.14f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.007794 seconds.
+Registered in 0.004916 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 208.91 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 238.64 ms, found 5 plugins.
 Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
   Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
   Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
-Preloading 1 native plugins for Editor in 0.66 ms.
+Preloading 1 native plugins for Editor in 0.53 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.530 seconds
+- Completed reload, in  1.723 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1531ms)
-		BeginReloadAssembly (268ms)
+	ReloadAssembly (1724ms)
+		BeginReloadAssembly (317ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1005ms)
-			LoadAssemblies (274ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1062ms)
+			LoadAssemblies (320ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
+			SetupTypeCache (250ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (657ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (649ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (87ms)
+				InitializePlatformSupportModulesInManaged (105ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (210ms)
+				RefreshPlugins (239ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (167ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.038913 seconds.
-Android Extension - Scanning For ADB Devices 683 ms
+Registered in 0.021769 seconds.
+Android Extension - Scanning For ADB Devices 4068 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/joshua/Documents/GitHub/VR-TUT/base/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/joshua/Documents/GitHub/VR-TUT/base/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.03 ms, found 5 plugins.
 Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
   Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
   Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
-Preloading 1 native plugins for Editor in 2.94 ms.
+Preloading 1 native plugins for Editor in 2.37 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.749 seconds
+- Completed reload, in  3.069 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2752ms)
-		BeginReloadAssembly (378ms)
+	ReloadAssembly (3072ms)
+		BeginReloadAssembly (384ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (31ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (2156ms)
-			LoadAssemblies (540ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2432ms)
+			LoadAssemblies (593ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (658ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (147ms)
-			SetupLoadedEditorAssemblies (863ms)
+			SetupTypeCache (676ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (1088ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (639ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (759ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.88 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 5 plugins.
 Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
   Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
   Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
-Preloading 1 native plugins for Editor in 0.74 ms.
-Unloading 5059 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (445.9 KB). Loaded Objects now: 5479.
-Memory consumption went from 318.9 MB to 318.4 MB.
-Total: 6.860474 ms (FindLiveObjects: 0.818928 ms CreateObjectMapping: 0.919753 ms MarkObjects: 4.612437 ms  DeleteObjects: 0.507516 ms)
+Preloading 1 native plugins for Editor in 0.90 ms.
+Unloading 5060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (445.9 KB). Loaded Objects now: 5481.
+Memory consumption went from 319.3 MB to 318.9 MB.
+Total: 6.605932 ms (FindLiveObjects: 0.598523 ms CreateObjectMapping: 0.877647 ms MarkObjects: 4.671496 ms  DeleteObjects: 0.456319 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -185,22 +185,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 61963.220049 seconds.
-  path: Assets/Oculus/LipSync/Prefabs/LipSyncInterface.prefab
-  artifactKey: Guid(4dd277bd9572488489906165e0931952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/LipSync/Prefabs/LipSyncInterface.prefab using Guid(4dd277bd9572488489906165e0931952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad71de09ea0d7b46211cef878268c80d') in 0.453502 seconds 
+  Time since last request: 80183.212807 seconds.
+  path: Assets/Videos/Screen Recording 2022-12-10 at 23.20.38.mov
+  artifactKey: Guid(87c4949310d4146cc89d76a3f12c1f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/Screen Recording 2022-12-10 at 23.20.38.mov using Guid(87c4949310d4146cc89d76a3f12c1f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dd1f5859460d26c70cf3750edb588f') in 0.317723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.552004 seconds.
+  path: Assets/Videos/Screen Recording 2022-12-10 at .mp4
+  artifactKey: Guid(c0aad95a79a2f4e218022357a295043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/Screen Recording 2022-12-10 at .mp4 using Guid(c0aad95a79a2f4e218022357a295043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb22c9def84f13bcdf8b407f049ea57b') in 1.746069 seconds 
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 44.67 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 50.04 ms, found 5 plugins.
 Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
   Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
   Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
-Preloading 1 native plugins for Editor in 0.84 ms.
+Preloading 1 native plugins for Editor in 0.78 ms.
 Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (422.5 KB). Loaded Objects now: 5480.
-Memory consumption went from 215.8 MB to 215.3 MB.
-Total: 10.622673 ms (FindLiveObjects: 0.714211 ms CreateObjectMapping: 0.516062 ms MarkObjects: 8.929610 ms  DeleteObjects: 0.460892 ms)
+Unloading 67 unused Assets / (414.8 KB). Loaded Objects now: 5482.
+Memory consumption went from 220.4 MB to 219.9 MB.
+Total: 32.526961 ms (FindLiveObjects: 0.656926 ms CreateObjectMapping: 0.667694 ms MarkObjects: 30.778734 ms  DeleteObjects: 0.421717 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -212,3 +218,533 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.51 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.03 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (422.7 KB). Loaded Objects now: 5482.
+Memory consumption went from 220.4 MB to 220.0 MB.
+Total: 37.313451 ms (FindLiveObjects: 0.950162 ms CreateObjectMapping: 0.505560 ms MarkObjects: 35.367120 ms  DeleteObjects: 0.488476 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 20.74 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.87 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (422.7 KB). Loaded Objects now: 5482.
+Memory consumption went from 220.4 MB to 220.0 MB.
+Total: 24.089724 ms (FindLiveObjects: 0.621747 ms CreateObjectMapping: 0.746886 ms MarkObjects: 22.265200 ms  DeleteObjects: 0.454012 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1339.360877 seconds.
+  path: Assets/Videos/Screen Recording 2022-12-10 at.mp4
+  artifactKey: Guid(c0aad95a79a2f4e218022357a295043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Videos/Screen Recording 2022-12-10 at.mp4 using Guid(c0aad95a79a2f4e218022357a295043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6d18850419db7a64a9f43f4f94b3b4') in 0.028133 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 25.08 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.98 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (422.5 KB). Loaded Objects now: 5482.
+Memory consumption went from 220.4 MB to 220.0 MB.
+Total: 42.636071 ms (FindLiveObjects: 1.649404 ms CreateObjectMapping: 0.801060 ms MarkObjects: 39.723273 ms  DeleteObjects: 0.460436 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.95 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.98 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (422.7 KB). Loaded Objects now: 5482.
+Memory consumption went from 220.4 MB to 220.0 MB.
+Total: 32.984275 ms (FindLiveObjects: 0.864044 ms CreateObjectMapping: 0.387431 ms MarkObjects: 31.317200 ms  DeleteObjects: 0.412641 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1618.572125 seconds.
+  path: Assets/Oculus/Avatar2/Example/Scenes/MirrorScene
+  artifactKey: Guid(8cf874caa290a1847a36edcbf433ba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar2/Example/Scenes/MirrorScene using Guid(8cf874caa290a1847a36edcbf433ba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea7d4d8c0a5df40dc4999b52fd6e3aa') in 0.006675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.094907 seconds.
+  path: Assets/Oculus/Avatar2/Example/Scenes/MirrorScene/MirrorScene.unity
+  artifactKey: Guid(9f2e1693a4f24bc498477b3dfeb166aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar2/Example/Scenes/MirrorScene/MirrorScene.unity using Guid(9f2e1693a4f24bc498477b3dfeb166aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bf6de7583bd6079d38a2e2a0d9d89b') in 0.008178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.163805 seconds.
+  path: Assets/Oculus/Avatar2/Example/Scenes/GazeTrackingExample
+  artifactKey: Guid(7b37715a92ae84f4dbe0240707081048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar2/Example/Scenes/GazeTrackingExample using Guid(7b37715a92ae84f4dbe0240707081048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495a4b046f44e6f618717946720b0733') in 0.003181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.338278 seconds.
+  path: Assets/Oculus/Avatar2/Example/Scenes/GazeTrackingExample/SampleGazeTarget.prefab
+  artifactKey: Guid(56451d33c6996504ab03a9b157b9f3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar2/Example/Scenes/GazeTrackingExample/SampleGazeTarget.prefab using Guid(56451d33c6996504ab03a9b157b9f3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7bce2ea2b5d10e2017fcddf5dafce6') in 2.303995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.107068 seconds.
+  path: Assets/Oculus/Avatar2/Example/Scenes/GazeTrackingExample/GazeTrackingExample.unity
+  artifactKey: Guid(71c0a112e957503448f41007b965a1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar2/Example/Scenes/GazeTrackingExample/GazeTrackingExample.unity using Guid(71c0a112e957503448f41007b965a1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9447fa6139428d069802d8547f39216') in 0.006548 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 21.55 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.74 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (414.9 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 19.431428 ms (FindLiveObjects: 0.508371 ms CreateObjectMapping: 0.538286 ms MarkObjects: 18.033755 ms  DeleteObjects: 0.349193 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 157.465599 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39cd6218a6336ba512075fff6a466b8') in 0.006465 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 16.48 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.91 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (422.6 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 31.986314 ms (FindLiveObjects: 0.928331 ms CreateObjectMapping: 0.561059 ms MarkObjects: 30.073443 ms  DeleteObjects: 0.421753 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 237.214569 seconds.
+  path: Assets/Oculus/Avatar2/Example/Scenes/FBConnectLightingExample
+  artifactKey: Guid(8bd875e0abadb92478f511ccf979364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar2/Example/Scenes/FBConnectLightingExample using Guid(8bd875e0abadb92478f511ccf979364e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b34b02fad25c57c6089cc100ecf0fa0') in 0.010324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.384540 seconds.
+  path: Assets/Oculus/Avatar2/Example/Scenes/FBConnectLightingExample/FBConnectLightingExample.unity
+  artifactKey: Guid(eff2058b5a617274c9cc8cbc0cd0cc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar2/Example/Scenes/FBConnectLightingExample/FBConnectLightingExample.unity using Guid(eff2058b5a617274c9cc8cbc0cd0cc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b806704894a9eaa537619479ca0eb8') in 0.005901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.365112 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d37194c7757a6f24817542e85c31b01') in 0.015174 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.63 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 2.72 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (415.0 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 32.060292 ms (FindLiveObjects: 0.559190 ms CreateObjectMapping: 0.601409 ms MarkObjects: 30.513451 ms  DeleteObjects: 0.384401 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.03 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.89 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (414.8 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.0 MB to 229.6 MB.
+Total: 33.070402 ms (FindLiveObjects: 0.895133 ms CreateObjectMapping: 0.406723 ms MarkObjects: 31.321127 ms  DeleteObjects: 0.445850 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 15.39 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.05 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (415.0 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.6 MB.
+Total: 36.464669 ms (FindLiveObjects: 1.122034 ms CreateObjectMapping: 0.686380 ms MarkObjects: 34.220827 ms  DeleteObjects: 0.433684 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.56 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.62 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (422.8 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 7.864007 ms (FindLiveObjects: 0.682580 ms CreateObjectMapping: 0.671250 ms MarkObjects: 6.147360 ms  DeleteObjects: 0.360722 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 15.08 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.01 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (415.0 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 33.285173 ms (FindLiveObjects: 0.937176 ms CreateObjectMapping: 0.556434 ms MarkObjects: 31.364476 ms  DeleteObjects: 0.425432 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.69 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.01 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (422.8 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 34.306900 ms (FindLiveObjects: 0.925557 ms CreateObjectMapping: 0.626336 ms MarkObjects: 32.257920 ms  DeleteObjects: 0.495278 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.22 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.61 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (415.0 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 6.842677 ms (FindLiveObjects: 0.591209 ms CreateObjectMapping: 0.698572 ms MarkObjects: 5.039846 ms  DeleteObjects: 0.511394 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.57 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.62 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (415.1 KB). Loaded Objects now: 5492.
+Memory consumption went from 230.1 MB to 229.7 MB.
+Total: 7.905947 ms (FindLiveObjects: 0.730515 ms CreateObjectMapping: 0.626397 ms MarkObjects: 6.208850 ms  DeleteObjects: 0.338429 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1576.401872 seconds.
+  path: Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav
+  artifactKey: Guid(1340d7fb0cd1bfb4caa3b3270cb2ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav using Guid(1340d7fb0cd1bfb4caa3b3270cb2ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b25fcaea5896ea03102d40a8017cfc9') in 2.569379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Oculus/Interaction/Samples/Sounds/DropObject01.wav
+  artifactKey: Guid(80fbb8c0c68727f429e4d50ddadd683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Sounds/DropObject01.wav using Guid(80fbb8c0c68727f429e4d50ddadd683b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f64196e6a34b3ed4682ae453a47a28') in 0.029822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Oculus/Spatializer/scenes/sounds/horse.ogg
+  artifactKey: Guid(494bd1721199a40c5a79fa3011793556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/sounds/horse.ogg using Guid(494bd1721199a40c5a79fa3011793556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643950c80912071ae1db470e98fc4d4e') in 0.512076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Oculus/Interaction/Samples/Sounds/GrabObject01.wav
+  artifactKey: Guid(452cab5cd4cc31a4bbda065fe1729e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Sounds/GrabObject01.wav using Guid(452cab5cd4cc31a4bbda065fe1729e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc197e368eafe1ee11a6ce57c35e245') in 0.032338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Oculus/Spatializer/scenes/sounds/car.ogg
+  artifactKey: Guid(354c37cd61ec24bbcbbc7921d0a71bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/sounds/car.ogg using Guid(354c37cd61ec24bbcbbc7921d0a71bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a485ef1f3b0adc9243add6a35d9349f9') in 0.029414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Oculus/Spatializer/scenes/sounds/hammer.wav
+  artifactKey: Guid(3a4baf251c1814716b9458d036384a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/sounds/hammer.wav using Guid(3a4baf251c1814716b9458d036384a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c825c10494dadfc09e988ebdae3791') in 0.028378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Audio/bubble.wav
+  artifactKey: Guid(9a752d3328516a44384df0f171c8a5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Audio/bubble.wav using Guid(9a752d3328516a44384df0f171c8a5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcccb86c2fd0c706960de4ca0c39f085') in 0.016248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Audio/bounce.wav
+  artifactKey: Guid(229f46af248b4c74facf863a061f856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Audio/bounce.wav using Guid(229f46af248b4c74facf863a061f856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e9d5b766ec3682c72772bfb50d1ae4') in 0.018704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Sounds/ButtonHit.ogg
+  artifactKey: Guid(e98bc45c5ab32d94f9fcea3ab3f0b38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Sounds/ButtonHit.ogg using Guid(e98bc45c5ab32d94f9fcea3ab3f0b38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524e197217aefc0852d60d622cf17fad') in 0.020523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Audio/ButtonUp.wav
+  artifactKey: Guid(523f822c1c7b699489c49fea2353c2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Audio/ButtonUp.wav using Guid(523f822c1c7b699489c49fea2353c2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6873ddb0f6205f0597054c1aa7562d5') in 0.030399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Oculus/Interaction/Samples/Audio/Content/Interaction_BasicGestures_SwipeForward_01.wav
+  artifactKey: Guid(152aafa4bc75a894f80f0da543555c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Audio/Content/Interaction_BasicGestures_SwipeForward_01.wav using Guid(152aafa4bc75a894f80f0da543555c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3deabcbaebe22ffe73612626548d7a') in 0.033024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007595 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Audio/ButtonDown.wav
+  artifactKey: Guid(98e759dfda69aa7468d95f5a2c88e366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Audio/ButtonDown.wav using Guid(98e759dfda69aa7468d95f5a2c88e366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189173eb7bd12961af7b8228759e958d') in 0.041460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.359173 seconds.
+  path: Assets/Oculus/LipSync
+  artifactKey: Guid(bdb466433db156f48a8e8c773fd3832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync using Guid(bdb466433db156f48a8e8c773fd3832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1173348aad0f87666144b9be3d4d2105') in 0.003005 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 16.15 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.76 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (415.4 KB). Loaded Objects now: 5494.
+Memory consumption went from 238.5 MB to 238.1 MB.
+Total: 7.249777 ms (FindLiveObjects: 0.552454 ms CreateObjectMapping: 0.811926 ms MarkObjects: 5.490177 ms  DeleteObjects: 0.393441 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168.941136 seconds.
+  path: Assets/Oculus/Avatar2/Example/Scenes/CornellBoxLightingExample
+  artifactKey: Guid(1c6b4e216881e304c9564564394c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Avatar2/Example/Scenes/CornellBoxLightingExample using Guid(1c6b4e216881e304c9564564394c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f6da23c89ce3103c9f57d88e25b83b') in 0.013655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.389308 seconds.
+  path: Assets/Oculus/LipSync/Scenes
+  artifactKey: Guid(e63268aff72466742ada144924d3f899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Scenes using Guid(e63268aff72466742ada144924d3f899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d1ea5db78fdf8432f3bcb0f47424b2') in 0.009737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.852519 seconds.
+  path: Assets/Oculus/LipSync/Scenes/LipSync_Demo.unity
+  artifactKey: Guid(0a5206cd53b21be4588ef635952929e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Scenes/LipSync_Demo.unity using Guid(0a5206cd53b21be4588ef635952929e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19b1dbbec92616e09a61a76e4229525') in 0.008295 seconds 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.39 ms, found 5 plugins.
+Plugins: Couldn't open /Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/joshua/Documents/GitHub/VR-TUT/base/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.14f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.08 ms.
+Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (415.0 KB). Loaded Objects now: 5494.
+Memory consumption went from 238.5 MB to 238.1 MB.
+Total: 34.395413 ms (FindLiveObjects: 0.738896 ms CreateObjectMapping: 0.795429 ms MarkObjects: 32.460310 ms  DeleteObjects: 0.398957 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168.614634 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac1622cfb9c62bdf22e2dd4fe760d17') in 0.010614 seconds 
