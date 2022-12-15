@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - MoveHandle
     - TestSkript
     - UpdtMv
     Oculus.AvatarSDK2.Example.dll:
@@ -158,8 +159,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -310,6 +309,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11608}
     - Class: 114
       Script: {instanceID: 11726}
+    - Class: 114
+      Script: {instanceID: 66542}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -4485,6 +4486,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: a0dca846e86defc0015be4bf42840dbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveDirectionCheck
+  - hash:
+      serializedVersion: 2
+      Hash: a0dca846e86defc0015be4bf42840dbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveHandle
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity
