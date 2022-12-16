@@ -1,8 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioLoudnessDetection
     - ColorVoiceResponds
     - MoveHandle
+    - ScaleFromAudioClip
     - TestSkript
     - UpdtMv
     Facebook.WitAI.dll:
@@ -251,6 +253,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2756}
     - Class: 114
+      Script: {instanceID: 2762}
+    - Class: 114
       Script: {instanceID: 2858}
     - Class: 114
       Script: {instanceID: 3144}
@@ -312,6 +316,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7292}
     - Class: 114
       Script: {instanceID: 7314}
+    - Class: 114
+      Script: {instanceID: 7360}
     - Class: 114
       Script: {instanceID: 7372}
     - Class: 114
