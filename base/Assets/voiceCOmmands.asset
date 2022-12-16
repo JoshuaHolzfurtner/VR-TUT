@@ -30,20 +30,62 @@ MonoBehaviour:
     speech: 
     message: 
     dictation: 
-  entities: []
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 8402254856516322
+    name: color
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 681046446927236
+      name: color
+    keywords:
+    - keyword: black
+      synonyms:
+      - black
+    - keyword: blue
+      synonyms:
+      - blue
+    - keyword: red
+      synonyms:
+      - red
+  - witConfiguration: {fileID: 11400000}
+    id: 1127980367915129
+    name: shape
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 1863748370655834
+      name: shape
+    keywords:
+    - keyword: Cylinder
+      synonyms:
+      - cylinder
+    - keyword: cube
+      synonyms:
+      - cube
+    - keyword: sphere
+      synonyms:
+      - sphere
   intents:
-  - witConfiguration: {fileID: 11400000}
-    id: 831392714828913
-    name: LinksW_hlen
-    entities: []
-  - witConfiguration: {fileID: 11400000}
-    id: 4117385041820728
-    name: RechtsWaehlen
-    entities: []
   - witConfiguration: {fileID: 11400000}
     id: 564682212157050
     name: color_this
-    entities: []
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 681046446927236
+      name: color:color
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 1863748370655834
+      name: shape:shape
+      lookups: []
+      roles: []
+      keywords: []
   traits: []
   isDemoOnly: 0
   useConduit: 0
