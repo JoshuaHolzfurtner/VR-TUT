@@ -100,8 +100,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Text
-    VoiceSDK.Editor.dll:
-    - Oculus.Voice.Inspectors.AppVoiceExperienceWitConfigurationEditor
     VoiceSDK.Runtime.dll:
     - Oculus.Voice.AppVoiceExperience
   serializedClasses:
@@ -235,159 +233,159 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1828}
+      Script: {instanceID: 1830}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 1928}
+      Script: {instanceID: 1930}
     - Class: 114
-      Script: {instanceID: 2102}
+      Script: {instanceID: 2104}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 2342}
     - Class: 114
-      Script: {instanceID: 2426}
+      Script: {instanceID: 2428}
     - Class: 114
-      Script: {instanceID: 2576}
+      Script: {instanceID: 2578}
     - Class: 114
-      Script: {instanceID: 2650}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 2756}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3750}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 3946}
+      Script: {instanceID: 3952}
     - Class: 114
-      Script: {instanceID: 4066}
+      Script: {instanceID: 4072}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 4198}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4348}
     - Class: 114
-      Script: {instanceID: 4490}
+      Script: {instanceID: 4496}
     - Class: 114
-      Script: {instanceID: 4636}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 4934}
+      Script: {instanceID: 4940}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5086}
+      Script: {instanceID: 5092}
     - Class: 114
-      Script: {instanceID: 5288}
+      Script: {instanceID: 5294}
     - Class: 114
-      Script: {instanceID: 5308}
+      Script: {instanceID: 5314}
     - Class: 114
-      Script: {instanceID: 5338}
+      Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 5642}
+      Script: {instanceID: 5648}
     - Class: 114
-      Script: {instanceID: 5706}
+      Script: {instanceID: 5712}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 6336}
+      Script: {instanceID: 6342}
     - Class: 114
-      Script: {instanceID: 6486}
+      Script: {instanceID: 6492}
     - Class: 114
-      Script: {instanceID: 6628}
+      Script: {instanceID: 6634}
     - Class: 114
-      Script: {instanceID: 6738}
+      Script: {instanceID: 6744}
     - Class: 114
-      Script: {instanceID: 6930}
+      Script: {instanceID: 6936}
     - Class: 114
-      Script: {instanceID: 7076}
+      Script: {instanceID: 7082}
     - Class: 114
-      Script: {instanceID: 7116}
+      Script: {instanceID: 7122}
     - Class: 114
-      Script: {instanceID: 7128}
+      Script: {instanceID: 7134}
     - Class: 114
-      Script: {instanceID: 7154}
+      Script: {instanceID: 7160}
     - Class: 114
-      Script: {instanceID: 7286}
+      Script: {instanceID: 7292}
     - Class: 114
-      Script: {instanceID: 7308}
+      Script: {instanceID: 7314}
     - Class: 114
-      Script: {instanceID: 7366}
+      Script: {instanceID: 7372}
     - Class: 114
-      Script: {instanceID: 7504}
-    - Class: 114
-      Script: {instanceID: 7708}
+      Script: {instanceID: 7512}
     - Class: 114
       Script: {instanceID: 7716}
     - Class: 114
-      Script: {instanceID: 7920}
+      Script: {instanceID: 7724}
     - Class: 114
-      Script: {instanceID: 8004}
+      Script: {instanceID: 7928}
     - Class: 114
-      Script: {instanceID: 8030}
+      Script: {instanceID: 8012}
     - Class: 114
-      Script: {instanceID: 8226}
+      Script: {instanceID: 8038}
     - Class: 114
-      Script: {instanceID: 8262}
+      Script: {instanceID: 8234}
     - Class: 114
-      Script: {instanceID: 8810}
+      Script: {instanceID: 8270}
     - Class: 114
-      Script: {instanceID: 8852}
+      Script: {instanceID: 8818}
     - Class: 114
       Script: {instanceID: 8860}
     - Class: 114
-      Script: {instanceID: 8912}
+      Script: {instanceID: 8868}
     - Class: 114
-      Script: {instanceID: 8916}
+      Script: {instanceID: 8920}
     - Class: 114
-      Script: {instanceID: 9050}
+      Script: {instanceID: 8924}
     - Class: 114
-      Script: {instanceID: 9162}
+      Script: {instanceID: 9058}
     - Class: 114
-      Script: {instanceID: 9300}
+      Script: {instanceID: 9170}
     - Class: 114
-      Script: {instanceID: 9408}
+      Script: {instanceID: 9308}
     - Class: 114
-      Script: {instanceID: 9460}
+      Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 9690}
+      Script: {instanceID: 9468}
     - Class: 114
-      Script: {instanceID: 9814}
+      Script: {instanceID: 9698}
     - Class: 114
-      Script: {instanceID: 9972}
+      Script: {instanceID: 9822}
     - Class: 114
-      Script: {instanceID: 10310}
+      Script: {instanceID: 9980}
     - Class: 114
-      Script: {instanceID: 10392}
+      Script: {instanceID: 10318}
     - Class: 114
-      Script: {instanceID: 10458}
+      Script: {instanceID: 10400}
     - Class: 114
-      Script: {instanceID: 10480}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10534}
+      Script: {instanceID: 10488}
     - Class: 114
-      Script: {instanceID: 10806}
+      Script: {instanceID: 10542}
     - Class: 114
-      Script: {instanceID: 10938}
+      Script: {instanceID: 10814}
     - Class: 114
-      Script: {instanceID: 10986}
+      Script: {instanceID: 10946}
     - Class: 114
-      Script: {instanceID: 11028}
+      Script: {instanceID: 10994}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11036}
     - Class: 114
-      Script: {instanceID: 11420}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 11568}
+      Script: {instanceID: 11456}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11576}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11622}
+    - Class: 114
+      Script: {instanceID: 11740}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -815,6 +813,12 @@ ScriptsOnlyBuild:
     className: OVRHand
   - hash:
       serializedVersion: 2
+      Hash: be6d03906924babfd959e4e856f463c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioLoudnessDetection
+  - hash:
+      serializedVersion: 2
       Hash: 02cb1ec2861564c5e7b5db606031d8ce
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.Input
@@ -1155,6 +1159,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.LipSync.dll
     namespaceName: 
     className: LipSyncDemo_SetCurrentTarget
+  - hash:
+      serializedVersion: 2
+      Hash: ba1c07567f33a5a93805eb690155effe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScaleFromMicrophone
   - hash:
       serializedVersion: 2
       Hash: a2869f4febb8c245318403779e7b7014
@@ -2745,6 +2755,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: InteractableTriggerBroadcaster
+  - hash:
+      serializedVersion: 2
+      Hash: ba1c07567f33a5a93805eb690155effe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScaleFromAudioClip
   - hash:
       serializedVersion: 2
       Hash: a8c61f120a248e691d195a82070bb1fb

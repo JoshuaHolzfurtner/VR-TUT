@@ -24,6 +24,7 @@ android.permission.ACCESS_NETWORK_STATE was added because:
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
 android.permission.RECORD_AUDIO, android.permission.MODIFY_AUDIO_SETTINGS, android.permission.BLUETOOTH, android.hardware.microphone were added because:
 	UnityEngine.Microphone was present in:
+		Assembly-CSharp-FeaturesChecked.txt
 		Oculus.LipSync-FeaturesChecked.txt
 		Facebook.WitAI-FeaturesChecked.txt
 		Oculus.AvatarSDK2.Example-FeaturesChecked.txt

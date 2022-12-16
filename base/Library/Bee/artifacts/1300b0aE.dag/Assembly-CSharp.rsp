@@ -534,10 +534,13 @@
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiSceneMenu.cs"
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
+"Assets/Scripts/AudioLoudnessDetection.cs"
 "Assets/Scripts/ColorVoiceResponds.cs"
 "Assets/Scripts/DrwLn.cs"
 "Assets/Scripts/MoveDirectionCheck.cs"
 "Assets/Scripts/MoveHandle.cs"
+"Assets/Scripts/ScaleFromAudioClip.cs"
+"Assets/Scripts/ScaleFromMicrophone.cs"
 "Assets/Scripts/TestSkript.cs"
 "Assets/Scripts/UpdtMv.cs"
 -langversion:9.0
