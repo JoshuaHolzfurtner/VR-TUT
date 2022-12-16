@@ -19,5 +19,6 @@ public class TestSkript : MonoBehaviour
         line.SetPosition(0, posOne.position);
         line.SetPosition(1, posTwo.position);
 
+
     }
 }

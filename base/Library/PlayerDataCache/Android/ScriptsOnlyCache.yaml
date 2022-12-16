@@ -1,9 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ColorVoiceResponds
     - MoveHandle
     - TestSkript
     - UpdtMv
+    Facebook.WitAI.dll:
+    - Facebook.WitAi.CallbackHandlers.WitResponseMatcher
+    - Facebook.WitAi.Data.Configuration.WitConfiguration
     Oculus.AvatarSDK2.Example.dll:
     - LipSyncMicInput
     - SampleAvatarEntity
@@ -16,8 +20,11 @@ ScriptsOnlyBuild:
     - Oculus.Avatar2.OvrAvatarShaderConfiguration
     - Oculus.Avatar2.OvrAvatarShaderManagerMultiple
     - Oculus.Avatar2.Utils.AvatarLODLookat
+    Oculus.Interaction.Samples.dll:
+    - Oculus.Interaction.AudioTrigger
     Oculus.Interaction.dll:
     - Oculus.Interaction.ActiveStateTracker
+    - Oculus.Interaction.CircleProximityField
     - Oculus.Interaction.ControllerActiveState
     - Oculus.Interaction.ControllerPointerPose
     - Oculus.Interaction.GrabAPI.HandGrabAPI
@@ -47,15 +54,20 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.Input.OVRCameraRigRef
     - Oculus.Interaction.Input.TrackingToWorldTransformerOVR
     - Oculus.Interaction.InteractableColorVisual
+    - Oculus.Interaction.InteractableDebugVisual
     - Oculus.Interaction.InteractableGroupView
+    - Oculus.Interaction.InteractableUnityEventWrapper
     - Oculus.Interaction.InteractorGroup
     - Oculus.Interaction.MaterialPropertyBlockEditor
     - Oculus.Interaction.PointableUnityEventWrapper
+    - Oculus.Interaction.PokeInteractable
+    - Oculus.Interaction.PokeInteractableVisual
     - Oculus.Interaction.PokeInteractor
     - Oculus.Interaction.PoseDetection.FingerFeatureStateProvider
     - Oculus.Interaction.PoseDetection.FingerFeatureStateThresholds
     - Oculus.Interaction.PoseDetection.JointDeltaProvider
     - Oculus.Interaction.PoseDetection.TransformFeatureStateProvider
+    - Oculus.Interaction.Surfaces.PlaneSurface
     - Oculus.Interaction.TwoGrabFreeTransformer
     Oculus.Spatializer.dll:
     - ONSPSettings
@@ -88,7 +100,29 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Text
+    VoiceSDK.Editor.dll:
+    - Oculus.Voice.Inspectors.AppVoiceExperienceWitConfigurationEditor
+    VoiceSDK.Runtime.dll:
+    - Oculus.Voice.AppVoiceExperience
   serializedClasses:
+    Facebook.WitAI:
+    - Facebook.WitAi.CallbackHandlers.FormattedValueEvents
+    - Facebook.WitAi.CallbackHandlers.MultiValueEvent
+    - Facebook.WitAi.CallbackHandlers.ValueEvent
+    - Facebook.WitAi.CallbackHandlers.ValuePathMatcher
+    - Facebook.WitAi.Configuration.WitEndpointConfig
+    - Facebook.WitAi.Configuration.WitRuntimeConfiguration
+    - Facebook.WitAi.Data.Configuration.WitApplication
+    - Facebook.WitAi.Data.Intents.WitIntent
+    - Facebook.WitAi.Events.VoiceEvents
+    - Facebook.WitAi.Events.WitByteDataEvent
+    - Facebook.WitAi.Events.WitErrorEvent
+    - Facebook.WitAi.Events.WitMicLevelChangedEvent
+    - Facebook.WitAi.Events.WitRequestCreatedEvent
+    - Facebook.WitAi.Events.WitRequestOptionsEvent
+    - Facebook.WitAi.Events.WitResponseEvent
+    - Facebook.WitAi.Events.WitTranscriptionEvent
+    - Facebook.WitAi.Events.WitValidationEvent
     Oculus.AvatarSDK2:
     - Oculus.Avatar2.AvatarLODManager/Debug
     - Oculus.Avatar2.CAPI/ovrAvatar2EntityCreateInfo
@@ -114,10 +148,15 @@ ScriptsOnlyBuild:
     - Oculus.Interaction.HandGrab.HandPose
     - Oculus.Interaction.InteractableColorVisual/ColorState
     - Oculus.Interaction.MaterialPropertyVector
+    - Oculus.Interaction.PokeInteractable/DragThresholdingConfig
+    - Oculus.Interaction.PokeInteractable/PositionPinningConfig
     - Oculus.Interaction.PoseDetection.FingerFeatureStateProvider/FingerStateThresholds
     - Oculus.Interaction.PoseDetection.FingerFeatureStateThreshold
     - Oculus.Interaction.PoseDetection.FingerFeatureThresholds
+    - Oculus.Interaction.ProgressCurve
     - Oculus.Interaction.TwoGrabFreeTransformer/TwoGrabFreeConstraints
+    Oculus.Interaction.Samples:
+    - Oculus.Interaction.MinMaxPair
     Oculus.VR.Editor:
     - Assets.Oculus.VR.Editor.AssetConfigList
     UnityEngine.CoreModule:
@@ -129,12 +168,24 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve:
+  - assembly: Oculus.Interaction.Samples
+    fullTypeName: Oculus.Interaction.AudioTrigger
+    methodName: PlayAudio
+  - assembly: VoiceSDK.Runtime
+    fullTypeName: Oculus.Voice.AppVoiceExperience
+    methodName: Activate
+  - assembly: Oculus.Interaction.Samples
+    fullTypeName: Oculus.Interaction.AudioTrigger
+    methodName: PlayAudio
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.MeshFilter
     methodName: set_mesh
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.MeshFilter
     methodName: set_mesh
+  - assembly: Assembly-CSharp
+    fullTypeName: ColorVoiceResponds
+    methodName: SetColor
   sceneClasses:
     Assets/Scenes/MainScene.unity:
     - Class: 1
@@ -159,6 +210,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -166,6 +219,8 @@ ScriptsOnlyBuild:
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -184,133 +239,155 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 2100}
+      Script: {instanceID: 1928}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2102}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2574}
+      Script: {instanceID: 2426}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2576}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 2852}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 3746}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3942}
+      Script: {instanceID: 3382}
     - Class: 114
-      Script: {instanceID: 4062}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 4188}
+      Script: {instanceID: 3946}
     - Class: 114
-      Script: {instanceID: 4338}
+      Script: {instanceID: 4066}
     - Class: 114
-      Script: {instanceID: 4486}
+      Script: {instanceID: 4192}
     - Class: 114
-      Script: {instanceID: 4632}
+      Script: {instanceID: 4342}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 4490}
     - Class: 114
-      Script: {instanceID: 4980}
+      Script: {instanceID: 4636}
     - Class: 114
-      Script: {instanceID: 5082}
+      Script: {instanceID: 4934}
     - Class: 114
-      Script: {instanceID: 5284}
+      Script: {instanceID: 4984}
     - Class: 114
-      Script: {instanceID: 5334}
+      Script: {instanceID: 5086}
     - Class: 114
-      Script: {instanceID: 5638}
+      Script: {instanceID: 5288}
     - Class: 114
-      Script: {instanceID: 5702}
+      Script: {instanceID: 5308}
     - Class: 114
-      Script: {instanceID: 6332}
+      Script: {instanceID: 5338}
     - Class: 114
-      Script: {instanceID: 6482}
+      Script: {instanceID: 5612}
     - Class: 114
-      Script: {instanceID: 6624}
+      Script: {instanceID: 5642}
     - Class: 114
-      Script: {instanceID: 6734}
+      Script: {instanceID: 5706}
     - Class: 114
-      Script: {instanceID: 6926}
+      Script: {instanceID: 6122}
     - Class: 114
-      Script: {instanceID: 7072}
+      Script: {instanceID: 6336}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 6486}
     - Class: 114
-      Script: {instanceID: 7124}
+      Script: {instanceID: 6628}
     - Class: 114
-      Script: {instanceID: 7150}
+      Script: {instanceID: 6738}
     - Class: 114
-      Script: {instanceID: 7282}
+      Script: {instanceID: 6930}
     - Class: 114
-      Script: {instanceID: 7304}
+      Script: {instanceID: 7076}
     - Class: 114
-      Script: {instanceID: 7362}
+      Script: {instanceID: 7116}
     - Class: 114
-      Script: {instanceID: 7500}
+      Script: {instanceID: 7128}
     - Class: 114
-      Script: {instanceID: 7704}
+      Script: {instanceID: 7154}
     - Class: 114
-      Script: {instanceID: 7712}
+      Script: {instanceID: 7286}
     - Class: 114
-      Script: {instanceID: 7916}
+      Script: {instanceID: 7308}
     - Class: 114
-      Script: {instanceID: 8222}
+      Script: {instanceID: 7366}
     - Class: 114
-      Script: {instanceID: 8804}
+      Script: {instanceID: 7504}
     - Class: 114
-      Script: {instanceID: 8846}
+      Script: {instanceID: 7708}
     - Class: 114
-      Script: {instanceID: 8906}
+      Script: {instanceID: 7716}
     - Class: 114
-      Script: {instanceID: 8910}
+      Script: {instanceID: 7920}
     - Class: 114
-      Script: {instanceID: 9044}
+      Script: {instanceID: 8004}
     - Class: 114
-      Script: {instanceID: 9156}
+      Script: {instanceID: 8030}
     - Class: 114
-      Script: {instanceID: 9294}
+      Script: {instanceID: 8226}
     - Class: 114
-      Script: {instanceID: 9402}
+      Script: {instanceID: 8262}
     - Class: 114
-      Script: {instanceID: 9684}
+      Script: {instanceID: 8810}
     - Class: 114
-      Script: {instanceID: 9808}
+      Script: {instanceID: 8852}
     - Class: 114
-      Script: {instanceID: 9966}
+      Script: {instanceID: 8860}
     - Class: 114
-      Script: {instanceID: 10386}
+      Script: {instanceID: 8912}
     - Class: 114
-      Script: {instanceID: 10474}
+      Script: {instanceID: 8916}
     - Class: 114
-      Script: {instanceID: 10528}
+      Script: {instanceID: 9050}
     - Class: 114
-      Script: {instanceID: 10800}
+      Script: {instanceID: 9162}
     - Class: 114
-      Script: {instanceID: 10932}
+      Script: {instanceID: 9300}
     - Class: 114
-      Script: {instanceID: 10980}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 9460}
     - Class: 114
-      Script: {instanceID: 11346}
+      Script: {instanceID: 9690}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 9814}
     - Class: 114
-      Script: {instanceID: 11442}
+      Script: {instanceID: 9972}
     - Class: 114
-      Script: {instanceID: 11562}
+      Script: {instanceID: 10310}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 10392}
     - Class: 114
-      Script: {instanceID: 11726}
+      Script: {instanceID: 10458}
     - Class: 114
-      Script: {instanceID: 66542}
+      Script: {instanceID: 10480}
+    - Class: 114
+      Script: {instanceID: 10534}
+    - Class: 114
+      Script: {instanceID: 10806}
+    - Class: 114
+      Script: {instanceID: 10938}
+    - Class: 114
+      Script: {instanceID: 10986}
+    - Class: 114
+      Script: {instanceID: 11028}
+    - Class: 114
+      Script: {instanceID: 11352}
+    - Class: 114
+      Script: {instanceID: 11420}
+    - Class: 114
+      Script: {instanceID: 11448}
+    - Class: 114
+      Script: {instanceID: 11568}
+    - Class: 114
+      Script: {instanceID: 11614}
+    - Class: 114
+      Script: {instanceID: 11732}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -442,6 +519,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: DebugGizmos
+  - hash:
+      serializedVersion: 2
+      Hash: a0dca846e86defc0015be4bf42840dbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveHandle
   - hash:
       serializedVersion: 2
       Hash: 04e4a8b0447477cc4e933d9e5311188f
@@ -892,6 +975,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRControllerTest
+  - hash:
+      serializedVersion: 2
+      Hash: a0dca846e86defc0015be4bf42840dbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveDirectionCheck
   - hash:
       serializedVersion: 2
       Hash: e1ca8f8609ae109158b50ac13a67fa0b
@@ -2994,6 +3083,12 @@ ScriptsOnlyBuild:
     className: OVRTrackedKeyboardSampleControls
   - hash:
       serializedVersion: 2
+      Hash: 95bc91dd724c0ec5b4f5b11c759d9c0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColorVoiceResponds
+  - hash:
+      serializedVersion: 2
       Hash: eb5dc3477b88aca4181c7d75f49e03ab
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -4486,18 +4581,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
-  - hash:
-      serializedVersion: 2
-      Hash: a0dca846e86defc0015be4bf42840dbb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveDirectionCheck
-  - hash:
-      serializedVersion: 2
-      Hash: a0dca846e86defc0015be4bf42840dbb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveHandle
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainScene.unity

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: voiceCOmmands
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 11400000}
+    name: demovoicetest
+    id: 1103177437011207
+    lang: en
+    isPrivate: 0
+    createdAt: 2022-12-15T12:13:34-0800
+  configId: cf9a8f28b4a15452db9eeb3e017a68f0
+  clientAccessToken: 6CZOFIVJKBMS52PNUSNYG24RRBYLWU2C
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  entities: []
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 831392714828913
+    name: LinksW_hlen
+    entities: []
+  - witConfiguration: {fileID: 11400000}
+    id: 4117385041820728
+    name: RechtsWaehlen
+    entities: []
+  - witConfiguration: {fileID: 11400000}
+    id: 564682212157050
+    name: color_this
+    entities: []
+  traits: []
+  isDemoOnly: 0
+  useConduit: 0
+  manifestLocalPath: ConduitManifest-9d5a07a7-e450-4dbf-b931-5c5a078e81be.json
+  autoGenerateManifest: 0
+  openManifestOnGeneration: 0
