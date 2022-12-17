@@ -473,6 +473,7 @@
 "Assets/Scripts/ScaleFromMicrophone.cs"
 "Assets/Scripts/TestSkript.cs"
 "Assets/Scripts/UpdtMv.cs"
+"Assets/Timer.cs"
 -langversion:9.0
 
 /deterministic
